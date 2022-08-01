@@ -2,55 +2,63 @@ import java.util.*;
 import java.io.*;
 
 class Main {
-
 	public static void main(String[] args) throws Exception {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		
-		int ans = 0;
-		int board [][] = new int[N][M];
-		int ans_board [][] = new int [N][M];
-		
-		for(int i = 0; i < N ; i++) {
-			String s = br.readLine();
-			for(int j = 0; j < M; j++) {
-				board[i][j] = s.charAt(j) - 0;
+		StringBuilder ans = new StringBuilder();
+		int T = Integer.parseInt(st.nextToken());
+
+		for (int i = 0; i < T; i++) {
+			Deque<Integer> dq = new LinkedList<>();
+			String p = br.readLine();
+			int n = Integer.parseInt(br.readLine());
+
+			st = new StringTokenizer(br.readLine(), ",[]");
+			while (dq.size() != n) {
+				dq.add(Integer.parseInt(st.nextToken()));
 			}
+			System.out.println(AC(dq, p));
+
 		}
-		
-		for(int i = 0; i < N ; i++) {
-			String s = br.readLine();
-			for(int j = 0; j < M; j++) {
-				ans_board[i][j] = s.charAt(j) - 0;
-			}
-		}
-		
-		
-		if(N < 3 || M < 3) System.out.println("-1");
-		else {
-			for(int i = 0; i < N - 2; i++) { // ������
-				for (int j = 0; j < M - 2; j++) { // ������
-					if(board[i][j] != ans_board[i][j]) {
-						for(int row = i; row < i + 3; row++) {
-							for(int col = j; col < j + 3; col++) {
-								if(board[i][j] == 1) board[row][col] = 0;
-								else board[row][col] = 1;
-							}
-						}
-						ans++;
-					}
+
+		System.out.println(ans);
+
+	}
+
+	public static String AC(Deque dq, String p) {
+		StringBuilder sb = new StringBuilder();
+		sb.append("[");
+		int r_cnt = 0;
+
+		for (int i = 0; i < p.length(); i++) {
+			char temp = p.charAt(i);
+			{
+				switch (temp) {
+				case 'R':
+					r_cnt++;
+					break;
+				case 'D':
+					if (!dq.isEmpty()) {
+						if (r_cnt % 2 == 0)		dq.poll();
+						else	dq.pollLast();
+					} else	return "error";
+					break;
 				}
 			}
-			
-			
-			System.out.println(ans);
 		}
-		
 
-		
+		while (!dq.isEmpty()) {
+			if (r_cnt % 2 == 0) {
+				if (dq.size() != 1)		sb.append(dq.poll() + ",");
+				else	sb.append(dq.poll());
+			} else {
+				if (dq.size() != 1) sb.append(dq.pollLast() + ",");
+				else	sb.append(dq.pollLast());
+			}
+		}
+
+		sb.append("]");
+		return sb.toString();
 	}
 }
