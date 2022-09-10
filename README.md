@@ -22,6 +22,7 @@
 [9251 LCS](https://www.acmicpc.net/problem/9251) [Java](https://github.com/ghrnwjd/boj/blob/master/b9251.java) <br>
 - <span style="color:blue">***G5***</span> 
 [2096 내려가기](https://www.acmicpc.net/problem/2096) [Java](https://github.com/ghrnwjd/boj/blob/master/%EB%B0%B1%EC%A4%80/Gold/2096.%E2%80%85%EB%82%B4%EB%A0%A4%EA%B0%80%EA%B8%B0/%EB%82%B4%EB%A0%A4%EA%B0%80%EA%B8%B0.java) <br>
+- <span style="color:blue">***G5***</span> 
 [2293 동전 1](https://www.acmicpc.net/problem/2293) [Java](https://github.com/ghrnwjd/boj/blob/master/%EB%B0%B1%EC%A4%80/Gold/2293.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%851/%EB%8F%99%EC%A0%84%E2%80%851.java) <br>
 
 
