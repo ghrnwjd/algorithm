@@ -1,9 +1,12 @@
 # ✌️ Solved
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=hoyoung2)](https://solved.ac/hoyoung2/)
 
+# 👊 Language 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
-# ✌️ List
+# 👌 List
 <details>
 <summary> 수학 </summary>
 <div markdown="1">
