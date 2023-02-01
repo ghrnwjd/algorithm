@@ -1,11 +1,10 @@
-# ✌️ Solved
+
+## 🌊 Language: <code><img alt = "Java" height="20" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/java_icon_130901.png"> JAVA</a></code> <code><img alt = "MySQL" height="20" src="https://cdn.icon-icons.com/icons2/1508/PNG/96/mysqlworkbench_103806.png"> MySQL</a></code>
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=hoyoung2)](https://solved.ac/hoyoung2/)
 
-# 👊 Language 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
+<!--
 # 👌 List
 <details>
 <summary> 수학 </summary>
@@ -101,3 +100,4 @@
 
 </div>
 </details>
+-->
