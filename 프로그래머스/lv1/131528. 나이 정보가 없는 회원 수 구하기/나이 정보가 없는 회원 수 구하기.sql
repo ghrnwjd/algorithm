@@ -1,0 +1,4 @@
+SELECT (COUNT(*) - COUNT(AGE)) AS USERS
+FROM USER_INFO;
+
+# COUNT(COL_NAME) -> NULL 이 아닌 것만 카운트한다.
