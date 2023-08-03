@@ -1,9 +1,11 @@
-
-## 🌊 Language: <code><img alt = "Java" height="20" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/java_icon_130901.png"> JAVA</a></code> <code><img alt = "MySQL" height="20" src="https://cdn.icon-icons.com/icons2/1508/PNG/96/mysqlworkbench_103806.png"> MySQL</a></code>
+<!--
+## 🌊 Language: <code><img alt = "Java" height="20" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/java_icon_130901.png"> JAVA</a></code> <code><img alt = "MySQL" height="20" src="https://cdn.icon-icons.com/icons2/1508/PNG/96/mysqlworkbench_103806.png"> MySQL</a></code> -->
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=hoyoung2)](https://solved.ac/hoyoung2/)
 
 
+###  **algorithm study group before**
 
+#### [1. algorithm-study-ice](https://github.com/ghrnwjd/algorithm-study)
 <!--
 # 👌 List
 <details>
